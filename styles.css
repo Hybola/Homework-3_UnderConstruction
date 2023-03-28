@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    color: aliceblue;
+
+  }
+  
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/38/mesh-1430108_1280.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+
+  }
+  nav{
+    display: flex;
+    justify-content: right;
+    margin: 10px;
+  }
+  nav a{
+    margin:auto 300px;
+    text-decoration: none;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-height: calc(100vh - 220px); */
+    height: 780px;
+  }
+
+h1{
+    text-transform: capitalize;
+    margin: 0px;
+    width: 300px;
+    text-align: center;    
+}
+
+
+.progress{
+margin: 40px auto;
+}
+.progress p{
+    text-align: center;
+}
+.numbers {
+display: flex;
+justify-content: space-between;
+}
+
+.bar{
+background-color: whitesmoke;
+padding: 3px;
+width: 300px;
+}
+.barvalue{
+    background-color: aqua;
+    padding: 9px;
+    width: 200px;
+}
+
+.start, .complete{
+    display: inline;
+}
+button{
+    padding: 10px;
+    width: 180px;
+    background-color: rgb(21, 251, 152);
+    border: none;
+    color: black;
+    margin-bottom: 20px;
+}
+button:hover{
+    background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+
+}
+
+footer{
+    text-align: center;
+    margin: auto 10%;
+}
+
+footer hr{
+    background-color: aliceblue;
+    border-top: 1px;
+}
+.socialbadge {
+    font-size: 50px ;
+}
+.socialbadge i {
+    margin: 4px;
+}
